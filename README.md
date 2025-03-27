@@ -1,12 +1,80 @@
-# React + Vite
+# 🛡️ QGate Security – Assignment Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a front-end assignment project built using **React.js** and **Tailwind CSS** for **QGate**. The project showcases a clean, responsive website layout for a company offering smart security solutions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objective
 
-## Expanding the ESLint configuration
+To design and develop a simple, professional website that highlights the company's core services:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Access Control Systems
+- Smart Surveillance
+- Automated Gate Solutions
+- Visitor Management
+
+---
+
+## ⚙️ Tech Stack
+
+- **React.js**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **React router**
+
+---
+
+## 🧩 Features
+
+- Responsive design (mobile-friendly)
+- Sidebar navigation with smooth scrolling
+- Utilized routing for viewing services and about section dynamically
+- Clean and modern layout
+- Added video in the hero section
+- Reusable components
+- Two-part contact section (form + details)
+- Organized component structure
+- Simple footer section
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+   `git clone https://github.com/your-username/qgate-assignment.git`
+
+2. Navigate inside the folder
+   `cd qgate-assignment`
+
+3. Install Dependencies
+   `npm install`
+
+4. Start the development server
+   `npm run dev`
+
+## 📂 Project Structure
+
+src/
+├── assets/ # Images used in the project
+├── components/ # Reusable React components
+│ ├── Navbar.jsx
+│ ├── Sidebar.jsx
+│ ├── Hero.jsx
+│ ├── About.jsx
+│ ├── Services.jsx
+│ ├── Contact.jsx
+│ └── Footer.jsx
+├── Pages/ # Reusable React components
+│ ├── Home.jsx
+│ ├── AboutPage.jsx
+│ ├── SectionDetails.jsx
+├── App.jsx # Main application file
+└── main.jsx # Entry point
+
+---
+
+## Developed By
+
+**Lakhan Kumar**  
+Front-End Developer | React.js & Tailwind CSS  
+📍 Bangalore, India
