@@ -26,7 +26,7 @@ function Contact() {
         </div>
 
         {/* right */}
-        <form className="w-[500px]">
+        <form className="md:w-[500px]">
           <div className="w-full mb-4">
             <label htmlFor="name" className="capitalize text-sm">
               name
